@@ -1,0 +1,19 @@
+{
+  "name": "ratio-to-percentages",
+  "version": "0.0.1",
+  "description": "A very tiny NPM module for converting a multiple value ratio to an array of percentages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montyanderson/ratio-to-percentages.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/montyanderson/ratio-to-percentages/issues"
+  },
+  "homepage": "https://github.com/montyanderson/ratio-to-percentages#readme"
+}
