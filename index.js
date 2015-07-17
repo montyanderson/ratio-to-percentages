@@ -7,9 +7,9 @@ module.exports = function(values) {
 
     var percentages = [];
 
-    values.forEach(function(ratio) {
+    values.forEach(function(ratio, key) {
         var percentage = (ratio / total) * 100;
-        percentages.push(percentage);
+        percentages[key] = percentage;
     });
 
     return percentages;
