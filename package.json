@@ -1,6 +1,6 @@
 {
   "name": "ratio-to-percentages",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A very tiny NPM module for converting a multiple value ratio to an array of percentages.",
   "main": "index.js",
   "scripts": {

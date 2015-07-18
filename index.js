@@ -1,4 +1,4 @@
-module.exports = function(values) {
+module.exports = function(values, func) {
     var total = 0;
 
     values.forEach(function(ratio) {
@@ -9,6 +9,11 @@ module.exports = function(values) {
 
     values.forEach(function(ratio, key) {
         var percentage = (parseInt(ratio) / total) * 100;
+
+        if(func) {
+            percentage = func(percentage);
+        }
+
         percentages[key] = percentage;
     });
 
